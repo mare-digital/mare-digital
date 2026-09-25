@@ -1,0 +1,10 @@
+{
+  "name": "mare-digital",
+  "private": true,
+  "description": "Site da Maré Digital",
+  "scripts": {
+    "patch": "node scripts/aplicar-patch.js",
+    "dev": "npx --yes serve public",
+    "deploy": "vercel --prod"
+  }
+}
